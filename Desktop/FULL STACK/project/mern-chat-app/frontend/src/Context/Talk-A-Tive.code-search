@@ -1,0 +1,39 @@
+# Query: Talk-A-Tive
+# ContextLines: 1
+
+7 results - 5 files
+
+README.md:
+   1  
+   2: # Cosmo Connect
+   3  
+   4: Cosmo Connect is a Full Stack Chatting App.
+   5  Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.
+
+  15  
+  16: https://Cosmo Connect.herokuapp.com/
+  17  
+
+frontend/public/index.html:
+  33      -->
+  34:     <title>Cosmo Connect</title>
+  35    </head>
+
+frontend/src/components/SingleChat.js:
+  17  import { ChatState } from "../Context/ChatProvider";
+  18: const ENDPOINT = "http://localhost:5000"; // "https://Cosmo Connect.herokuapp.com"; -> After deployment
+  19  var socket, selectedChatCompare;
+
+frontend/src/components/miscellaneous/SideDrawer.js:
+  143          <Text fontSize="2xl" fontFamily="Work sans">
+  144          <Text fontSize="2xl" fontFamily="Work sans">
+  145:           Cosmo Connect
+  145          </Text>
+  146          </Text>
+
+frontend/src/Pages/Homepage.js:
+  36          <Text fontSize="4xl" fontFamily="Work sans">
+  37          <Text fontSize="4xl" fontFamily="Work sans">
+  38:           Cosmo Connect
+  38          </Text>
+  39          </Text>

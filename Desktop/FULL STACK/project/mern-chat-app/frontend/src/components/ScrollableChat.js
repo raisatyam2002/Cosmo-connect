@@ -44,6 +44,7 @@ const ScrollableChat = ({ messages }) => {
             >
               {m.content}
             </span>
+            {/* <span>{m.createdAt}</span> */}
           </div>
         ))}
     </ScrollableFeed>

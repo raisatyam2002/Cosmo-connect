@@ -43,9 +43,10 @@ const accessChat = asyncHandler(async (req, res) => {
         "users",
         "-password"
       );
+      const t=(createdChat.createdAt);
       res.status(200).json(FullChat);
     } catch (error) {
-      res.status(400);
+      createdChat.res.status(400);
       throw new Error(error.message);
     }
   }
